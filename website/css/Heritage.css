@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(11.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    float:left;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 60px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;  
+}
+
+
+.title h1{
+    font-family:inherit;
+    color: #fff;
+    font-size: 40px; 
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;  
+}
+
+.colombo{
+    position: absolute;
+    top: 28%;
+    align-items: center;
+    
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    cursor: pointer;
+}
+h2{
+    font-family: cursive;
+    color: #fff;
+    font-size: 13px; 
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    text-shadow: #fff;
+}
+.col{
+
+     flex-basis: 50%;
+    
+    
+padding-top: 28%;
+}
+.card{
+    width: 200px;
+    height: 130px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    text-shadow: 0 0 10px #999;
+    
+}
+
+
+.card1{
+    background-image: url(g2.jpg);
+}
+.card2{
+    background-image: url(gf.jpg);
+}
+.card3{
+    background-image: url(d4.jpg);
+}
+.card4{
+    background-image: url(i.jpg);
+}
+.card5{
+    background-image: url(k.jpg);
+}
+.card6{
+    background-image: url(ko2.jpg);
+}
+.card7{
+    background-image: url(m4.jpg);
+}
+.card8{
+    background-image: url(b3.jpg);
+}
+.card9{
+    background-image: url(mu2.jpg);
+}
+.card10{
+    background-image: url(z3.jpg);
+}
+
+.col a{
+    display:inline-flex;
+    
+}
